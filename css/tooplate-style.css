@@ -53,6 +53,7 @@ h4 {
 }
 
 p {
+  /*Color del texto login #757575*/
   color: #757575;
   font-size: 16px;
   font-weight: 300;
@@ -88,7 +89,8 @@ p {
   font-weight: normal;
   letter-spacing: 0.5px;
   padding: 0 25px;
-  background: #4dc47d;
+  /*color de fondo del boton*/
+  background: #0ab4d8;
   border-radius: 1px;
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
@@ -203,6 +205,7 @@ a:hover, a:active, a:focus {
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
+  /*Alineacion de texto login Center*/
 }
 
 
@@ -330,8 +333,10 @@ a:hover, a:active, a:focus {
   .custom-navbar {
     background: 0 0; 
   }
+
+  /*..Color de la Barra de Navegacion..*/
   .custom-navbar.top-nav-collapse {
-    background: #4dc47d;
+    background: #0ab4d8;
     padding: 15px 0;
   }
 }
@@ -373,7 +378,10 @@ a:hover, a:active, a:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.75);
+  /*background-color: rgba(0,0,0,0.75);*/
+  background: url('../images/background.jpg') 50% 0 repeat-y fixed;
+  background-size: cover;
+  background-position: center center;
 }
 
 #home video {
@@ -523,14 +531,61 @@ a:hover, a:active, a:focus {
 .team-item:hover .team-overlay {
   opacity: 1;
 }
+/*---------------------------------------
+  LOGIN             
+-----------------------------------------*/
 
+#login {
+  background: url('../images/background.jpg') 50% 0 repeat-y fixed;
+  background-size: cover;
+  background-position: center center;
+}
 
+#login-form {
+  padding-top: 22px;
+}
+
+#login .text-success,
+#login .text-danger {
+  display: none;
+  padding: 0 0 5px 20px;
+}
+
+#login .form-control {
+  border: none;
+  box-shadow: none;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 22px;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+#login .form-control:focus {
+  border-color: #d9d9d9;
+}
+
+#login input {
+  height: 55px;
+  line-height: 45px;
+}
+
+#login .section-btn {
+  margin: 5px 0 0 0;
+}
+
+#login button#cf-submit {
+  background: transparent;
+  border: none;
+  padding: 0;
+  line-height: 50px;
+}
 /*---------------------------------------
   CONTACT             
 -----------------------------------------*/
 
 #contact {
-  background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/background.jpg') 50% 0 repeat-y fixed;
   background-size: cover;
   background-position: center center;
 }

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<!-- Favicon -->
+
+<link rel="icon" type="image/ico" href="images/cr.png">
+<title>Login</title>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
+
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+
+<!-- MAIN CSS -->
+<link rel="stylesheet" href="css/tooplate-style.css">
+
+</head>
+<body>
+
+<!-- PRE LOADER -->
+<div class="preloader">
+     <div class="spinner">
+          <span class="sk-inner-circle"></span>
+     </div>
+</div>
+
+
+<!-- MENU -->
+<div class="navbar custom-navbar navbar-fixed-top" role="navigation">
+     <div class="container">
+         <!-- NAVBAR HEADER -->
+          <div class="navbar-header">
+               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+               </button>
+               <!-- lOGO -->
+               <a href="index.html" class="navbar-brand">CamiloplusR</a>
+          </div>
+
+          <!-- MENU LINKS -->
+          <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html" class="smoothScroll">Inicio</a></li>
+                    <li><a href="#registry" class="smoothScroll">Registro</a></li>
+                    <li><a href="#contact" class="smoothScroll">Login   </a></li>
+               </ul>
+               </ul>
+          </div>
+
+     </div>
+</div>
+
+<!-- Acceso -->
+
+<section id="contact" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-3 col-md-6 col-sm-12">
+                    <div class="section-title"><br><br><br><br><br>
+                         <h1 style="color: honeydew;">Iniciar Sesion</h1>
+                    </div>
+               </div>
+
+               <div class="clearfix"></div>
+
+               <div class="col-md-offset-2 col-md-8 col-sm-12">
+                    <!-- CONTACT FORM HERE -->
+                    <form id="contact-form" action="#" method="get" role="form">
+          
+                         <!-- IF MAIL SENT SUCCESSFULLY -->
+                         <h6 class="text-success">Your message has been sent successfully. </h6>
+                         
+                         <!-- IF MAIL SENDING UNSUCCESSFULL -->
+                         <h6 class="text-danger">E-mail must be valid and message must be longer than 1 character.</h6>
+
+                         <div class="col-md-12 col-sm-12">
+                              <input type="text" class="form-control" id="cf-subject" name="usuario" placeholder="Dirección de correo electrónico">
+                         </div>
+
+                         <div class="col-md-12 col-sm-12">
+                              <input type="password" class="form-control" id="cf-subject" name="contrassena" placeholder="Contraseña">
+                         </div>
+
+                         <div class="col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4">
+                              <div class="section-btn"><br>
+                                       <button type="submit" class="form-control" id="cf-submit" name="submit"><span data-hover="Iniciar Sesión">Iniciar Sesión</span></button>
+                              </div><br><br><br><br><br>
+                         </div>
+                    </form>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+<!-- Registro -->
+<br id="registry">
+<section id="contact" class="parallax-section" style="background-image: url('../images/backgroundreg.jpg')">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-3 col-md-6 col-sm-12">
+                    <div class="section-title">
+                         <h1 style="color: rgb(5, 5, 5);">Registro</h1>
+                    </div>
+               </div>
+
+               <div class="clearfix"></div>
+
+               <div class="col-md-offset-2 col-md-8 col-sm-12">
+                    <!-- CONTACT FORM HERE -->
+                    <form id="contact-form" action="#" method="get" role="form">
+
+                         <!-- IF MAIL SENT SUCCESSFULLY -->
+                         <h6 class="text-success">Your message has been sent successfully. </h6>
+                         
+                         <!-- IF MAIL SENDING UNSUCCESSFULL -->
+                         <h6 class="text-danger">E-mail must be valid and message must be longer than 1 character.</h6>
+
+                         <div class="col-md-6 col-sm-6">
+                              <input type="text" class="form-control" id="cf-name" name="cf-name" placeholder="Nombre">
+                         </div>
+
+                         <div class="col-md-6 col-sm-6">
+                              <input type="text" class="form-control" id="cf-lastname" name="cf-lastname" placeholder="Apellido">
+                         </div>
+
+                         <div class="col-md-12 col-sm-12">
+                              <input type="email" class="form-control" id="cf-email" name="cf-email" placeholder="Dirección de correo electrónico">
+                         </div>
+                         <div class="col-md-6 col-sm-6">
+                              <input type="password" class="form-control" id="cf-password" name="password" placeholder="Contraseña">
+                         </div>
+                         <div class="col-md-6 col-sm-6">
+                              <input type="password" class="form-control" id="cf-password" name="confirm-password" placeholder="Confirmar Contraseña">
+                         </div>
+                         <!--
+                        <div class="col-md-12 col-sm-12">
+                                   <h2 style="color:rgb(5, 5, 5);">Seleccione su Genero: </h2><br>
+                                   <input type="radio" id="male" name="gender" value="male" class="col-md-2 col-sm-2">
+                                   <h3 style="color:rgb(5, 5, 5);" for="male" class="col-md-2 col-sm-2">Masculino</h3>
+                                   <input type="radio" id="female" name="gender" value="female" class="col-md-2 col-sm-2">
+                                   <h3 style="color: rgb(5, 5, 5);" for="female" class="col-md-2 col-sm-2">Femenino</h3>
+                                   <input type="radio" id="other" name="gender" value="other" class="col-md-2 col-sm-2">
+                                   <h3 style="color:rgb(5, 5, 5);" for="other" class="col-md-2 col-sm-2">Otro</h3>
+                         </div>
+                         -->
+                         <div class="col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4">
+                              <div class="section-btn"><br>
+                                   <button type="submit" class="form-control" id="cf-submit" name="submit"><span data-hover="Registrate">Registrate</span></button>
+                              </div>
+                         </div>
+                    </form>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+<!-- Registro   style="background-image: url('../images/backgroundreg.jpg')  -->
+
+<!-- REGISTRO -->
+
+
+<!-- FOOTER -->
+<footer>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-5 col-sm-6">
+                    <h2>Camiloplusr</h2>
+                    <p>321 Bogotá, Colombia,<br> Calle 13 #27 - 47,<br> San Diego</p>
+                    
+                    
+               </div>
+
+               <div class="col-md-4 col-sm-6">
+                    <div class="footer-info">
+                    	<h2>Mantenerse en contacto</h2>
+                         <p><a href="tel:315-502-4240">315-502-4240</a></p>
+                         <p><a href="mailto:camiloplusr@camiloplusr.com">Camiloplusr@camiloplusr.com</a></p>
+                         <p><a href="#">Nuestra Ubicación</a></p>
+                    </div>
+               </div>
+
+               <div class="col-md-3 col-sm-12">
+               		
+                    <h2>Sobre Nosotros</h2>
+                    <p>Cuando decidimos crear algun producto, ponemos en marcha los metodos mas agiles del desarrollo para la integracion tecnologica.</p>
+                    <ul class="social-icon">
+                         <li><a href="#" class="fa fa-twitter"></a></li>
+                         <li><a href="#" class="fa fa-facebook"></a></li>
+                         <li><a href="#" class="fa fa-instagram"></a></li>
+                         <li><a href="#" class="fa fa-linkedin"></a></li>
+                    </ul>
+                    
+               </div>
+
+               <div class="clearfix"></div>
+
+               <div class="col-md-12 col-sm-12">
+                    <div class="copyright-text">
+                         <p>Copyright © 2020 Camiloplusr Inc
+                         
+                         | Todos los derechos reservados</p>
+                    </div>
+               </div>
+               
+          </div>
+     </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
