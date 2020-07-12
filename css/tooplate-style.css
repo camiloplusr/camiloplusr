@@ -154,7 +154,7 @@ html{
 }
 
 a {
-  color: #4dc47d;
+  color: #0ab4d8;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -264,7 +264,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar {
   margin-bottom: 0;
-  background-color: #4dc47d;
+  background-color: #0ab4d8;
   padding: 20px 0;
 }
 
